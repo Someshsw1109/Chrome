@@ -1,0 +1,1 @@
+{"root":["./entrypoints/background.ts","./entrypoints/content.ts","./entrypoints/popup/app.tsx","./entrypoints/popup/main.tsx"],"version":"5.6.2"}

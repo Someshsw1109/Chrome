@@ -1,0 +1,17 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "jsx": "react-jsx",
+    "target": "ES6",           
+    "module": "ESNext",        
+    "outDir": "./.output",        
+    "rootDir": "./entrypoints",
+    "strict": true,            
+    "esModuleInterop": true,   
+    "skipLibCheck": true              
+  },
+  "include": [
+    "entrypoints/**/*"
+  ]
+}
